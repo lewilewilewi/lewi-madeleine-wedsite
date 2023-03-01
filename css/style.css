@@ -1494,30 +1494,49 @@ overflow: hidden !important;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
 }
-.events.left .caption {
-    left: auto;
-    right: 0;
-    background: #faf8f7;
-    padding: 5% 5% 5% 5%;
-}
-.events .caption h4 {
-    font-size: 40px;
-    color: #1b1b1b;
-    line-height: 1.25em;
-    margin-bottom: 10px;
-    font-family: 'Alex Brush', cursive;
-}
-.events .caption h6 {
-    color: #000;
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 12px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-.events .caption p {
-    margin-bottom: 0px;
-}
+.events .caption .content .cont {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+  }
+.events .caption .content .cont h4 {
+      font-size: 40px;
+      color: #1b1b1b;
+      font-family: 'Alex Brush', cursive;
+      margin-bottom: 10px;
+  }
+.events .caption .content .cont .cont-list {
+      position: relative;
+      display: block;
+  }
+  .events .caption .content .cont .cont-list li {
+      position: relative;
+      display: flex;
+      align-items: center;
+  }
+  .events .caption .content .cont .cont-list li + li {
+      margin-top: 5px;
+  }
+  .events .caption .content .cont .cont-list li .icon span {
+      font-size: 16px;
+      color: #000;
+  }
+  .events .caption .content .cont .cont-list li .text {
+      margin-left: 20px;
+  }
+  .events .caption .content .cont .cont-list li .text p {
+      margin: 0;
+      font-size: 16px;
+      color: #666;
+  }
+  .events .caption .content .cont .cont-list li .text p a {
+      font-size: 16px;
+      color: #666;
+      transition: all 500ms ease;
+  }
+  .events .caption .content .cont .cont-list li .text p a:hover {
+      color: #000;
+  }
 @media (max-width: 991.98px) {
     .events figure {
         width: auto;
