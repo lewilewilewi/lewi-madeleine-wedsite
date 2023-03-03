@@ -88,20 +88,19 @@ ul {
 }
 /* links */
 a {
-    color: #fff;
+    color: #000;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    text-decoration: underline;
+    font-weight: bold;
 }
 a:hover,
 a:active,
 a:focus {
-    color: #fff;
+    color: #000;
     outline: none;
     text-decoration: none !important;
-}
-a:link {
-    text-decoration: none;
 }
 a:focus {
     outline: none;
