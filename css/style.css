@@ -2702,3 +2702,62 @@ overflow: hidden !important;
 [data-overlay-light="10"]:before {
     opacity: 1;
 }
+
+/* CUSTOM SHIT LEWI WROTE */
+.gift-header {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.wedding-item-wrapper {
+    margin-bottom: 40px;
+    background: #faf8f7;
+    padding: 15px;
+    display: grid;
+}
+
+.honeymoon {
+    padding: 15px;
+}
+
+.price {
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 7px
+}
+
+.de-button {
+    background-color: #0445AF;
+    color: rgb(255, 255, 255);
+    --merchant-button-color: ##0445AF;
+}
+
+/* .checkout-button-div {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  } */
+
+   .checkout-button-div {
+    float: right;
+    width: 50%;
+    border: 0;
+    border-radius: 6px;
+    background-color: #0445AF;
+    color: rgb(255, 255, 255);
+    --merchant-button-color: ##0445AF;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
